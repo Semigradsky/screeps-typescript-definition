@@ -381,7 +381,7 @@ interface RoomPosition extends PositionEntity {
      * @param opts An object with additional options.
      * @returns The closest object if found, null otherwise.
      */
-    findNearest(type: RoomObjTypes, opts?: { filter: any }): any[];
+    findNearest(type: RoomObjTypes, opts?: { filter: any }): any;
 
     /** Find all objects in the specified linear range of the given type.
      * @param range The range distance.
